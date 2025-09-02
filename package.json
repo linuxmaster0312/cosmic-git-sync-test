@@ -41,7 +41,10 @@
     "remark-gfm": "^4.0.0",
     "stripe": "^18.0.0",
     "tailwind-merge": "^2.2.0",
-    "three": "^0.174.0"
+    "three": "^0.174.0",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "playwright": "^1.40.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
