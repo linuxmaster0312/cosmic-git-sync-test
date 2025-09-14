@@ -381,38 +381,6 @@
       }
     });
   
-    // Add visual indicator that editor is active
-    const indicator = document.createElement('div');
-    indicator.style.cssText = `
-      position: fixed;
-      top: 10px;
-      right: 10px;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
-      padding: 6px 12px;
-      border-radius: 20px;
-      font-family: system-ui, -apple-system, sans-serif;
-      font-size: 12px;
-      font-weight: 600;
-      z-index: 99999;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      pointer-events: none;
-      animation: pulse 2s infinite;
-    `;
-    indicator.textContent = '🎨 Editor Mode';
-    
-    // Add pulse animation
-    const style = document.createElement('style');
-    style.textContent = `
-      @keyframes pulse {
-        0% { transform: scale(1); }
-        50% { transform: scale(1.05); }
-        100% { transform: scale(1); }
-      }
-    `;
-    document.head.appendChild(style);
-    document.body.appendChild(indicator);
-  
     console.log('Visual Editor initialized successfully');
   })();
   
