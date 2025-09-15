@@ -35,7 +35,7 @@ export default function HeroSection() {
             className="inline-block mb-8"
           >
             <div className="bg-black text-white px-4 py-2 border-4 border-black shadow-[8px_8px_0px_0px_#FBBF24] transform rotate-3">
-              <span className="font-bold text-sm tracking-wide">WASUP WORLD! 👋</span>
+              <span className="font-bold text-sm tracking-wide">Joshua Park! 👋</span>
             </div>
           </motion.div>
 
